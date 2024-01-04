@@ -1,9 +1,8 @@
-name: first workflow
-
-on: push
+on : push
 jobs:
-first-job: 
-  run-on: Ubuntu-latest
-  steps: 
-   -run: node --version
-   -run: npm --version
+   first-job:
+     runson: windows-latest
+     steps:
+       - run: node --version
+       - run: npm --version
+
